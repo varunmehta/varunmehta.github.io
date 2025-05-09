@@ -12,6 +12,8 @@ I’m Varun Mehta. I am the Director of Software Engineer, currently working at 
 
 I started my engineering journey [back in the 90s](link_to_old_portfolio). Spent my early days designing [websites](old_portfolio), and writing code in C & Pascal, eventually settling with Java for enterprise applications. Currently I dabble with Python for data pipelines, robotics, AI and machine learning.
 
+Constantly solving interesting problems presented by clients, challenging situations, or personal exploration in pursuit of better solutions. When I discover any, I try to share these insights and see them implemented by others to create real-world impact.
+
 ## What are some interesting projects you are working on? 
 I try to keep [projects](/projects) up to date as much as possible. Some of my [3D printing models](https://www.printables.com/@emortal_2112934) are also available for free printing.
 
