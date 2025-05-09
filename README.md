@@ -3,7 +3,8 @@
 This was a fun experiment migrating everything from my older blogs spread all over the internet across different service providers to one common place at github. 
 
 ## TODO
-* [] Migrate older sites from tripod.com
+* [ ] Migrate data for 2020-2025
+* [ ] Migrate older sites from tripod.com
 
 
 ## Tech Notes
