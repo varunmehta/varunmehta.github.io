@@ -1,7 +1,7 @@
 ---
 title: "Why Should Software Architects Write Code?"
 layout: post
-date: 2010-07-31
+date: 2016-02-24
 #image: /assets/images/markdown.jpg
 headerImage: false
 tag:

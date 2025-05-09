@@ -1,7 +1,7 @@
 ---
 title: "DATETIME vs TIMESTAMP vs DATE & TIME - Part 2"
 layout: post
-date: 2008-07-07
+date: 2008-08-14
 #image: /assets/images/markdown.jpg
 headerImage: false
 tag:

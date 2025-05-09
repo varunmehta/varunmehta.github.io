@@ -1,7 +1,7 @@
 ---
 title: "Version Control Policy: Best Practices"
 layout: post
-date: 2010-02-17
+date: 2009-10-27
 #image: /assets/images/markdown.jpg
 headerImage: false
 tag:
