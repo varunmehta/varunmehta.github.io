@@ -1,0 +1,38 @@
+{% if page.title == "Home"
+   or page.title == "Blog"
+   or page.title == "Projects"
+   or page.title == "Tags"
+%}{% assign showHeader = true %}{% endif %}
+
+{% if showHeader == true %}
+    <header class="header-home {% if site.animation %}animated{% endif %}">
+        {% if site.about %}
+            <a class="link" href="{{ site.url }}/about">
+                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </a>
+        {% else %}
+            <span class="link">
+                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </span>
+        {% endif %}
+
+        <h1 class="title">{{ site.title }}</h1>
+        <h2 class="description">{{ site.bio }}</h2>
+
+        {% include social-links.html %}
+
+        <h2 class="description">
+            <!-- [ <a class="link" data-title="calendly.com/{{ site.calendly }}/30min" href="https://calendly.com/{{ site.calendly }}/30min" target="_blank"  rel="noopener" alt="anchor link for social media calendly" aria-label="anchor link for social media calendly">schedule a meeting</a> ] -->
+
+            <!-- Calendly badge widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/varun-mehta-r/30min', text: 'Let\'s Talk', color: '#ffffff', textColor: '#f15a00' }); }</script>
+            <!-- Calendly badge widget end -->
+
+        </h2>
+
+    </header>
+{% endif %}
+
+{% include nav.html %}

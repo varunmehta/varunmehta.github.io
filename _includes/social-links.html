@@ -1,0 +1,43 @@
+<div class="social-links">
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
+            <i class="fa-brands fa-linkedin fa-2xl"></i>
+        </a>
+    {% endif %}
+
+    {% if site.github %}
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
+            <i class="fa-brands fa-github fa-2xl"></i>
+        </a>
+    {% endif %}
+
+    {% if site.flickr %}
+        <a class="link" data-title="flickr.com/photos/{{ site.flickr }}" href="https://flickr.com/photos/{{ site.flickr }}" target="_blank" rel="noopener" alt="anchor link for social media flickr" aria-label="anchor link for social media flickr">
+            <i class="fa-brands fa-flickr fa-2xl"></i>
+        </a>
+    {% endif %}
+
+    {% if site.strava %}
+        <a class="link" data-title="strava.com/athletes/{{ site.strava }}" href="https://strava.com/athletes/{{ site.strava }}" target="_blank" rel="noopener" alt="anchor link for social media strava" aria-label="anchor link for social media strava">
+            <i class="fa-brands fa-strava fa-2xl"></i>
+        </a>
+    {% endif %}
+
+    {% if site.bluesky %}
+        <a class="link" data-title="bsky.app/profile/{{ site.bluesky }}" href="https://bsky.app/profile/{{ site.bluesky }}" target="_blank"  rel="noopener" alt="anchor link for social media bluesky" aria-label="anchor link for social media bluesky">
+            <i class="fa-brands fa-bluesky fa-2xl"></i>
+        </a>
+    {% endif %}
+
+    {% if site.printables %}
+        <a class="link" data-title="printables.com/{{ site.printables }}" href="https://printables.com/{{ site.printables }}" target="_blank"  rel="noopener" alt="anchor link for social media printables" aria-label="anchor link for social media printables">
+            <i class="fa-solid fa-cube fa-2xl"></i>
+        </a>
+    {% endif %}
+
+    {% if site.email %}
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener" alt="anchor link for email" aria-label="anchor link for email">
+            <i class="fa-regular fa-envelope fa-2xl"></i>
+        </a>
+    {% endif %}
+</div>
