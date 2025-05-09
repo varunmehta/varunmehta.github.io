@@ -37,6 +37,8 @@ disqus:
   shortname: github # enter this from your disqus account
   categories: [] # only show disqus for posts that have these categories
 
+utteranc: true
+
 # if you don't have any of social below, comment the line
 linkedin: varunrmehta
 github: varunmehta
