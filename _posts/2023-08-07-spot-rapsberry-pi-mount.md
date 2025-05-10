@@ -16,7 +16,7 @@ author: varunmehta
 description: Building a raspberry pi as a payload for Spot.
 ---
 
-After creating the [Pi4 as a payload](spot-rapsberry-pi-payload), we had good luck running things off the Pi. We `scp` our files over to Pi, then `ssh` in run our scripts. This was going great, but the power bank was a pain to lug around, and was also causing occasional [brown outs](https://en.wikipedia.org/wiki/Brownout_(electricity)). When ever the CPU load spiked, the Pi ended up rebooting, stalling the mission
+After creating the [Pi4 as a payload](/spot-rapsberry-pi-payload), we had good luck running things off the Pi. We `scp` our files over to Pi, then `ssh` in run our scripts. This was going great, but the power bank was a pain to lug around, and was also causing occasional [brown outs](https://en.wikipedia.org/wiki/Brownout_(electricity)). When ever the CPU load spiked, the Pi ended up rebooting, stalling the mission
 
 I decided to build a [custom payload](https://dev.bostondynamics.com/docs/payload/readme) for spot. Time to tap the [payload port](https://dev.bostondynamics.com/docs/payload/robot_electrical_interface.html) on the back of spot, and see if we can mooch off the power from it
 
