@@ -30,7 +30,7 @@ url: https://varunmehta.github.io
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'G-N16D9R1101'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
