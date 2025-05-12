@@ -1,5 +1,5 @@
 ---
-title: "Migration & Consolidation"
+title: "Blog Migration & Consolidation"
 layout: post
 date: 2025-03-29
 #image: /assets/images/markdown.jpg
