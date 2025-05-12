@@ -18,7 +18,7 @@ Constantly solving interesting problems presented by clients, challenging situat
 I try to keep [projects](/projects) up to date as much as possible. Some of my [3D printing models](https://www.printables.com/@emortal_2112934) are also available for free printing.
 
 ## What do I do for fun
-I like to run, bike, swim, hike when possible. To de-stress, I cook, also allows me to keep track of what I'm eating.  Off late I've started the [Starting Strength](https://startingstrength.com/) program and have seen some improvements when attacking hills on the bike.
+I like to run, bike, swim, hike when possible. To de-stress, I cook, also allows me to keep track of what I'm eating.  Off late I've started the [Starting Strength](https://startingstrength.com/) program and have seen some improvements when climbing hills.
 
 <!-- ## Clients I've worked with -->
 <!--
