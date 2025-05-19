@@ -21,16 +21,16 @@
 
         {% include social-links.html %}
 
-        <h2 class="description">
-            <!-- [ <a class="link" data-title="calendly.com/{{ site.calendly }}/30min" href="https://calendly.com/{{ site.calendly }}/30min" target="_blank"  rel="noopener" alt="anchor link for social media calendly" aria-label="anchor link for social media calendly">schedule a meeting</a> ] -->
+        <h4 class="schedule-call">
+            [<a class="link" data-title="calendly.com/{{ site.calendly }}/30min" href="https://calendly.com/{{ site.calendly }}/30min" target="_blank"  rel="noopener" alt="anchor link for social media calendly" aria-label="anchor link for social media calendly">Schedule Meeting</a>]
+        </h4>
 
-            <!-- Calendly badge widget begin -->
-            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-            <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/varun-mehta-r/30min', text: 'Let\'s Talk', color: '#ffffff', textColor: '#f15a00' }); }</script>
-            <!-- Calendly badge widget end -->
+        <!-- Calendly badge widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/varun-mehta-r/30min', text: 'Let\'s Talk', color: '#ffffff', textColor: '#f15a00' }); }</script>
+        <!-- Calendly badge widget end -->
 
-        </h2>
 
     </header>
 {% endif %}
