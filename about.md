@@ -30,4 +30,4 @@ I love connecting with folks that read this blog or have anything to chat with m
 
 {% include social-links.html %}
 
-You can also [**schedule a call**](https://calendly.com/varun-mehta-r/30min) to chat with me 
+You can also [**schedule a call**](https://calendly.com/varun-mehta-r/quick-connect) to chat with me 
