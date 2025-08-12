@@ -30,7 +30,7 @@ Service Model explores a future where robots continue to follow ingrained servic
 ## Tasks Management
 One of the biggest common challenge in the story is persistent, uncleared task queues. This behavior is exhibited by the police and doctor bots at the start of the story, and later by a lot of different types of bots when waiting at Diagnostics. There are high-priority tasks which have been open for over a 1000+ days. Tasks are never deleted but then again, not all are equal. 
 
-Real world challenges faced by the robots in the book
+#### Real world challenges faced by the robots in the book
  * Tasks persist indefinitely, even after the context is irrelevant.
  * Ambiguous tasks, without clear goals and directive, ex: preserve the knowledge and library.
  * Decision paralysis when confronted with conflicting ideas, with no central authority (human to override).
@@ -38,7 +38,7 @@ Real world challenges faced by the robots in the book
  * Duplication of tasks across different robots.
  * Lack of inter robot communication compatibility. Different protocols prevent standard communication.
 
- ### High Level Engineering Principles to Avoid Failure. 
+### High Level Engineering Principles to Avoid Failure. 
   1. Tasks should have a lifecycle and follow TTL rules. 
   1. Context awareness when executing tasks.
   1. Consider storage limitation, archiving policy 
