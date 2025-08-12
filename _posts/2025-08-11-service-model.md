@@ -28,18 +28,25 @@ Service Model explores a future where robots continue to follow ingrained servic
 > ***Warning***: Potential spoilers from the book ahead. I've tried to keep things as abstract as possible without revealing too much of the plot. 
 
 ## Tasks Management
-One of the biggest common challenge in the story is persistent, uncleared task queues. This behavior is exhibited by the police and doctor bots at the start of the story, and later by a lot of different types of bots when waiting at Diagnostics. There are high-priority tasks which have been open for over a 1000+ days. Tasks are never deleted but then again, not all are equal. 
+One of the biggest common challenge in the story is persistent, uncleared task queues. This behavior is exhibited by the police and doctor bots at the start of the story, and later by a lot of different types of bots when waiting at Diagnostics. There are high-priority tasks which have been open for over a 1000+ days. Tasks are never deleted but then again, not all tasks are equal. 
 
-#### Real world challenges faced by the robots in the book
- * Tasks persist indefinitely, even after the context is irrelevant.
- * Ambiguous tasks, without clear goals and directive, ex: preserve the knowledge and library.
- * Decision paralysis when confronted with conflicting ideas, with no central authority (human to override).
- * No task hierarchy or priority.
- * Duplication of tasks across different robots.
- * Lack of inter robot communication compatibility. Different protocols prevent standard communication.
+### Real world challenges faced by the robots in the book
+ 1. Task Persistence: Old, irrelevant tasks never expire.
+ 1. No Context Updating: Tasks aren’t evaluated against current world conditions.
+ 1. Priority Inversion: Trivial old tasks block urgent new ones.
+ 1. Memory Saturation: Task queue fills up, risking loss of incoming tasks.
+ 1. No Deletion Mechanism: Robots are unable to discard tasks.
+ 1. Conflicting Instructions: Multiple tasks require incompatible actions not relevant in the current world conditions.
+ 1. Ambiguity Handling: Tasks with vague or incomplete instructions stall execution.
+ 1. Resource Starvation: Time & energy spent on outdated tasks drains capacity for new ones.
+ 1. Deadlock Between Bots: Interdependent tasks cause stalemates. The doctor and police interaction at the start is a very good example of this.
+ 1. Task Fragmentation: Partial tasks accumulate without completion.
+ 1. Inability to Self-Archive: No mechanism to store completed tasks for historical purposes while freeing active memory.
+
 
 ### High Level Engineering Principles to Avoid Failure. 
-  1. Tasks should have a lifecycle and follow TTL rules. 
+Some of these are not new, but calling it out.
+  1. Tasks should have a lifecycle and follow TTL(Time to Live) rules. 
   1. Context awareness when executing tasks.
   1. Consider storage limitation, archiving policy 
   1. Shared cooperation and coordination.
@@ -57,22 +64,22 @@ Adding some additional metadata to the tasks. Old tasks stay in the system, but 
  * Append only tasks, no deletes 
  * Indexed on priority and timestamp
  * Compression of old tasks
- * Implemented tiered storage (similar to S3) active vs cold storage
+ * Implement tiered storage (similar to S3) active vs cold storage
  
 #### Queue Maintenance
  * Deduplicate recurring tasks 
  * Review list of open tasks and update priority score
  * Archive low priority tasks into summaries 
- > Think of compressing all the HTTP `/info` logs captured every minute, over 1 month (43,200 statements), compressed to 1 log statement. ~ *Battery maintenance check was logged 800 times between date1 and date2* 
+ > Think of compressing all the HTTP `/info` logs captured every minute, over 1 month (43,200 statements), compressed to 1 log statement. ~ *Battery maintenance check was logged 800 times between 3/1/2025 and 3/31/2025* 
  * Monitor resource (memory and power consumption) of itself, the queue.
 
 #### Self-Care  
  * Prioritize self-maintenance tasks over any high priority tasks in the queue.
- * Pick up new tasks or interrupt current task to address self-maintenance. 
+ * Pick up new tasks or interrupt current task to address self-maintenance.
  * Ensures it doesn’t prioritize external service over its own self-care.
 
 #### Model Context Protocol 
-During communication between robots, the same robot responds with different response times, based on how they are processing the response. Having an MCP to manage requests can be helpful. 
+During communication between robots, the same robot responds with different response times, based on how they are processing the response. Having an MCP to manage requests can be helpful.
  * Tasks are interpreted and executed per the operational context.
  * Multiple models (perception, planning, behavior) can co-exist and be activated or deactivated depending on environment, mode, or goal state.
  * If one model fails or behaves erratically, MCP can isolate it, revert to fallbacks, or switch operational modes as needed.
