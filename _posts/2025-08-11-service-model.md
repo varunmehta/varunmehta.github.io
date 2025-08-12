@@ -1,5 +1,5 @@
 ---
-title: "Service Model by Adrian Tchaikovsky - High Level System Design"
+title: "Service Model by Adrian Tchaikovsky - System Design"
 layout: post
 date: 2025-08-11
 image: https://upload.wikimedia.org/wikipedia/en/2/25/Service_Model_by_Adrian_Tchaikovsky.png
