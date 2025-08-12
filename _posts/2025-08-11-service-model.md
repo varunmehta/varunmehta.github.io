@@ -36,10 +36,10 @@ One of the biggest common challenge in the story is persistent, uncleared task q
  1. Priority Inversion: Trivial old tasks block urgent new ones.
  1. Memory Saturation: Task queue fills up, risking loss of incoming tasks.
  1. No Deletion Mechanism: Robots are unable to discard tasks.
- 1. Conflicting Instructions: Multiple tasks require incompatible actions not relevant in the current world conditions.
+ 1. Conflicting Instructions: Multiple tasks require incompatible actions not relevant anymore.
  1. Ambiguity Handling: Tasks with vague or incomplete instructions stall execution.
  1. Resource Starvation: Time & energy spent on outdated tasks drains capacity for new ones.
- 1. Deadlock Between Bots: Interdependent tasks cause stalemates. The doctor and police interaction at the start is a very good example of this.
+ 1. Deadlock Between Bots: Interdependent tasks cause stalemates. The doctor and police interaction.
  1. Task Fragmentation: Partial tasks accumulate without completion.
  1. Inability to Self-Archive: No mechanism to store completed tasks for historical purposes while freeing active memory.
 
