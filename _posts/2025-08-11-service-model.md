@@ -31,17 +31,17 @@ Service Model explores a future where robots continue to follow ingrained servic
 One of the biggest common challenge in the story is persistent, uncleared task queues. This behavior is exhibited by the police and doctor bots at the start of the story, and later by a lot of different types of bots when waiting at Diagnostics. There are high-priority tasks which have been open for over a 1000+ days. Tasks are never deleted but then again, not all tasks are equal. 
 
 ### Real world challenges faced by the robots in the book
- 1. Task Persistence: Old, irrelevant tasks never expire.
- 1. No Context Updating: Tasks aren’t evaluated against current world conditions.
- 1. Priority Inversion: Trivial old tasks block urgent new ones.
- 1. Memory Saturation: Task queue fills up, risking loss of incoming tasks.
- 1. No Deletion Mechanism: Robots are unable to discard tasks.
- 1. Conflicting Instructions: Multiple tasks require incompatible actions not relevant anymore.
- 1. Ambiguity Handling: Tasks with vague or incomplete instructions stall execution.
- 1. Resource Starvation: Time & energy spent on outdated tasks drains capacity for new ones.
- 1. Deadlock Between Bots: Interdependent tasks cause stalemates. The doctor and police interaction.
- 1. Task Fragmentation: Partial tasks accumulate without completion.
- 1. Inability to Self-Archive: No mechanism to store completed tasks for historical purposes while freeing active memory.
+ 1. **Task Persistence:** Old, irrelevant tasks never expire.
+ 1. **No Context Updating:** Tasks aren’t evaluated against current world conditions.
+ 1. **Priority Inversion:** Trivial old tasks block urgent new ones.
+ 1. **Memory Saturation:** Task queue fills up, risking loss of incoming tasks.
+ 1. **No Deletion Mechanism:** Robots are unable to discard tasks.
+ 1. **Conflicting Instructions:** Multiple tasks require incompatible actions not relevant anymore.
+ 1. **Ambiguity Handling:** Tasks with vague or incomplete instructions stall execution.
+ 1. **Resource Starvation:** Time & energy spent on outdated tasks drains capacity for new ones.
+ 1. **Deadlock Between Bots:** Interdependent tasks cause stalemates. The doctor and police interaction.
+ 1. **Task Fragmentation:** Partial tasks accumulate without completion.
+ 1. **Inability to Self-Archive:** No mechanism to store completed tasks for historical purposes while freeing active memory.
 
 
 ### High Level Engineering Principles to Avoid Failure. 
