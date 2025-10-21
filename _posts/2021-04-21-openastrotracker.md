@@ -12,7 +12,7 @@ tag:
 star: false
 hidden: false
 projects: true
-category: project
+category: blog
 author: varunmehta
 description: AWS IoT Garage Opener
 ---
