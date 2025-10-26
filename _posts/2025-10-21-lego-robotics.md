@@ -1,12 +1,12 @@
 ---
 title: "First Lego League - Challenge [Unearthed - 2025]"
 layout: post
-date: 2025-10-03
+date: 2025-10-21
 image: https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/FLL_Challenge_Logo_v2.svg/600px-FLL_Challenge_Logo_v2.svg.png
 headerImage: true
 tag:
 - robotics
-- machine learning
+- FLL
 - lego
 - technical
 - architecture
