@@ -6,6 +6,7 @@ date: 2023-04-29
 headerImage: false
 tag:
 - technical
+- robotics
 - spot
 - boston dynamics
 - raspberry pi

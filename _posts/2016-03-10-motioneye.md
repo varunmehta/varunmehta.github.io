@@ -34,3 +34,7 @@ I tore the "Easy carry Ziplock" box on the sides for the cables to pass thru. It
 ### Steps to install MotionEye
 
 {% gist varunmehta/8b74afc5d5a2ec9779d7 %}
+
+## Outcome
+
+Using frame difference comparison on motioneye, I was able to check when someone arrived and was in my driveway, or when the mailman arrived. The pi is great, but lacks processing power to keep up with the processing needed by the application.
