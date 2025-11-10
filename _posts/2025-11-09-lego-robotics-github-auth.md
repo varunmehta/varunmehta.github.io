@@ -20,9 +20,13 @@ author: varunmehta
 description: Using GitHub to store python and block code from spike prime
 ---
 
-After spending more than 2 weeks with kids coaching them on how different sensors and motors work, and trying to explain `f = ma` and `d = vt`, along with `circumference` of a circle and distance traveled by a wheel. They were finally down to building their first bot, and write some code. The team religiously after every class was uploading the `llsp3` file to github. I've also joined the Facebook group [**FLL Challenge: Share and Learn**](https://www.facebook.com/share/g/1F88RjiSYk/?mibextid=wwXIfr), and they have been a really helpful resource for new coaches. The site [FLLTutorials](https://flltutorials.com/) has a lot of learnings new coaches can leverage to help navigate with their teams. One common theme I've seen being posted on the facebook group was loss of code, due to accidentally not downloading the file or saving it when they started coding, or the code was lost due to crash, or they have no way to go back to an older version. The most common recommended solution was to use Google Drive or OneDrive to store the `llsp3` files after the code has been downloaded, and rename the file with the date of creation.
+I joined the Facebook group [**FLL Challenge: Share and Learn**](https://www.facebook.com/share/g/1F88RjiSYk/?mibextid=wwXIfr), and it's a helpful resource for new coaches. Another site [FLLTutorials](https://flltutorials.com/) also has a lot of guides for new coaches, to help navigate the program with their teams. 
 
-# Enter SpikePrimeGit
+After spending more than 2 weeks with kids coaching them on how different sensors and motors work, and trying to explain `f = ma` and `d = vt`, along with `circumference` of a circle and distance traveled by a wheel. They were finally down to building their first bot, and write some code. The team religiously after every class was uploading the `llsp3` file to github. 
+
+One common theme I see being posted regularly on the facebook group was frustration due to loss of code, due to accidentally not downloading the file or not saving it when they started coding. The code was lost due to system/browser crash, and they have no way to go back to an older version. The most common recommended solution is to use Google Drive or OneDrive to store the `llsp3` file. Download the code and rename the file with the date stamp of the day.
+
+# Enter [SpikePrimeGit]((https://varunmehta.github.io/spike-prime-git/))
 
 [SpikePrimeGit](https://varunmehta.github.io/spike-prime-git/) is a Chrome extension that helps students and coaches automatically save LEGO SPIKE Prime projects to GitHub. This makes it easy to:
 
@@ -31,12 +35,8 @@ After spending more than 2 weeks with kids coaching them on how different sensor
 * Collaboration: Share projects with teammates and coaches
 * Portfolio: Build a portfolio of your robotics projects
 
-Developers for a long long time have been using some type of version control system to work on the same code base, allowing them to be collaborative with other developers and also having the freedom to go back to an older version in case of a mess up. The current flavour of version control in use is GitHub. So I decided to spend time learning to write a Chrome plugin. [Claude Code](https://www.claude.com/product/claude-code) did make the process a lot faster and easier to work with. The plugin is still under review from Chrome Web Store and GitHub Marketplace teams (which I did not know have a long process to approve plugins!). 
+Developers for a long long time have been using some type of a version control system to work on the same code base, allowing them to be collaborative with other developers and also having the freedom to go back to an older version in case of a mistake. The current flavour of the month for version control is `git` and GitHub it the best free cloud service to host repositories. 
 
-Checkout the [documentation](https://varunmehta.github.io/spike-prime-git/) and feel free to provide any feedback.
+I spent some time learning how to write a Chrome plugin. [Claude Code](https://www.claude.com/product/claude-code) did make the process a lot faster and easier to work with. There are 2 parts to a plugin, a GitHub Marketplace App, and a Chrome Web Store plugin. Both of which are under review and can take from 3 days to 6 weeks depending upon the level of scrutiny required.  
 
-## Wishlist features
-
-* AutoSync on every save (worried about GitHub rate limits)
-* Use Issues for keep track of features kids plan to build for their robot
-* Documentation of plans for their robot
+If you are a skilled developer, you can side load the plugin and test it. Checkout the [documentation](https://varunmehta.github.io/spike-prime-git/) and please provide any [feedback](https://github.com/varunmehta/spike-prime-git/issues).
