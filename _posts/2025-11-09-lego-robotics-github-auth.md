@@ -10,7 +10,7 @@ tag:
 - github
 - authentication
 - lego
-- technical
+- technicalf
 - architecture
 star: false
 hidden: false
@@ -36,6 +36,6 @@ Checkout the [documentation](https://varunmehta.github.io/spike-prime-git/) and 
 
 ## Wishlist features
 
-[ ] AutoSync on every save (worried about GitHub rate limits)
-[ ] Use Issues for keep track of features kids plan to build for their robot
-[ ] Documentation of plans for their robot
+* AutoSync on every save (worried about GitHub rate limits)
+* Use Issues for keep track of features kids plan to build for their robot
+* Documentation of plans for their robot
