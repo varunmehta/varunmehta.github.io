@@ -1,7 +1,7 @@
 ---
 title: "SpikePrimeGit - Chrome and GitHub plugin"
 layout: post
-date: 2025-10-25
+date: 2025-11-09
 image: https://varunmehta.github.io/spike-prime-git/images/icon128.png
 headerImage: true
 tag:
@@ -9,8 +9,9 @@ tag:
 - FLL
 - github
 - authentication
+- projects
 - lego
-- technicalf
+- technical
 - architecture
 star: false
 hidden: false
