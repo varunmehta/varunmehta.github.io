@@ -15,6 +15,7 @@ tag:
 - architecture
 star: false
 hidden: false
+projects: true
 category: blog
 author: varunmehta
 description: Using GitHub to store python and block code from spike prime

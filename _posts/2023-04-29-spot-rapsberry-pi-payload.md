@@ -13,6 +13,7 @@ tag:
 star: false
 hidden: false
 category: blog
+projects: true
 author: varunmehta
 description: Building a raspberry pi as a payload for Spot.
 ---
