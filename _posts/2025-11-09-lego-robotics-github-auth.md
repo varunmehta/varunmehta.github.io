@@ -28,6 +28,10 @@ One common theme I see being posted regularly on the facebook group was frustrat
 
 # Enter SpikePrimeGit
 
+**UPDATE**: The Chrome plugin is now available on the web store! 
+
+[![Available in the Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/spikeprimegit/ldiklhfinipoikhmfbnamjklkigcppoe)
+
 [SpikePrimeGit](https://varunmehta.github.io/spike-prime-git/) is a Chrome extension that helps students and coaches automatically save LEGO SPIKE Prime projects to GitHub. This makes it easy to:
 
 * Version Control: Keep track of changes to your projects over time
@@ -40,3 +44,4 @@ Developers for a long long time have been using some type of a version control s
 I spent some time learning how to write a Chrome plugin. [Claude Code](https://www.claude.com/product/claude-code) did make the process a lot faster and easier to work with. There are 2 parts to a plugin, a GitHub Marketplace App, and a Chrome Web Store plugin. Both of which are under review and can take from 3 days to 6 weeks depending upon the level of scrutiny required.  
 
 If you are a skilled developer, you can side load the plugin and test it. Checkout the [documentation](https://varunmehta.github.io/spike-prime-git/) and please provide any [feedback](https://github.com/varunmehta/spike-prime-git/issues).
+
