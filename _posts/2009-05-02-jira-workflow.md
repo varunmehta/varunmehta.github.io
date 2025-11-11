@@ -34,14 +34,14 @@ These are the major steps involved. So we charted these with JIRA, and this is t
 1. Resolve Issue
 1. Close Issue
 
-Once a developer gets the issue/feature to take care of; they go ahead and starts the progress, when the requirement is complete. At any given point of time, one can point out the key features the developer is working on.
+Once a developer gets the issue/feature to take care of; they go ahead and start the progress, when the requirement is complete. At any given point of time, one can point out the key features the developer is working on.
 
-If there is any more information needed from the business analyst of the decision maker, reassign the issue to them and mark it as **More Info Needed** who when provides more info, assigns back to you. Why the run around; well helps you document the issue for future reference.
+If there is any more information needed from the business analyst or the decision maker, reassign the issue to them and mark it as **More Info Needed** who when provides more info, assigns back to you. Why the run around; well helps you document the issue for future reference.
 
 Back **In Progress** the developer continues with the quest to complete it. When finished, updates the status as **Development Complete**; and starts working on writing a **Unit Test** for it.
 
-There are cases, when there are no unit tests needed or possible for a peice of code, so the developer has two paths (considering does not break anything else!)
+There are cases, when there are no unit tests needed or possible for a piece of code, so the developer has two paths (considering does not break anything else!)
 
 Go to JIRA, create a copy of the existing workflow and add your points in between.
 
->There is some interesting debate about the Unit Test being written first and then the code, its called TDD Test Driven Development; so you code knowing what to expect.
+>There is some interesting debate about the Unit Test being written first and then the code, it's called TDD Test Driven Development; so you code knowing what to expect.

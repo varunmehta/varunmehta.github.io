@@ -26,7 +26,7 @@ description: Dinner ideas, Fish and Chips
 ## Directions
 - Mix both flours, baking powder and sugar
 - Add Soda water, lager and salt
-- Mix together until the batter binds and is smooth, no over-mix
+- Mix together until the batter binds and is smooth; do not over-mix
 - Cover fish with dusting of plain flour, drop into batter and coat
 - Heat oil to 180C 
 - cook for 8-10 minutes, until golden

@@ -13,7 +13,7 @@ author: varunmehta
 description: CollectionUtils 
 ---
 
-We had a problem at work today, where we need to find the difference between two collections and remove the uncommon ones from the first one and add the uncommon ones from the first to the second.
+We had a problem at work today, where we needed to find the difference between two collections and remove the uncommon ones from the first one and add the uncommon ones from the first to the second.
 
 This is related to hibernate add-remove-update for collections. Read here about it
 
@@ -132,9 +132,9 @@ public static void main(String[] args) {
 {% endhighlight %}
 
 ## Results
-I ran a performance test on both, 
+I ran a performance test on both,
 * forLoop - 18 ms
 * collectionUtils - 72 ms
 * jdkNative - 5 ms
 
-So avoid using the CollectionUtils. See what is more important, cleaner code or faster code 
+So avoid using the CollectionUtils. See what is more important: cleaner code or faster code. 

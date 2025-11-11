@@ -1,7 +1,7 @@
 .side-by-side
     @media #{$above}
-        width: 130%
-        margin: 6rem 0 6rem -15%
+        width: 100%
+        margin: 4rem 0
 
     @media #{$below}
         width: 100%
@@ -11,6 +11,7 @@
     > .toright
         display: inline-block
         width: 47.5%
+        vertical-align: top
 
         @media #{$below}
             img
@@ -35,9 +36,14 @@
             width: 100%
             margin: 0 0 4rem 0
 
+        img
+            max-width: 100%
+            height: auto
+            display: block
+
     > .toleft > p,
     > .toright > p
-        margin: 0 0 4rem 0
+        margin: 0 0 2rem 0
 
         @media #{$below}
-            margin: 0
+            margin: 0 0 2rem 0

@@ -15,7 +15,7 @@ description: Duplicate File Finder
 
 Disk space is cheap, starting from a 1.2GB hard drive from my first computer to a "spare" 500GB external hard drive, cheap data storage has come a long way. I click a lot of photographs ever since I got my first digital camera, and I store a lot of these photos too (locally), now since 2006 I have over 201,608 photos and some videos. My camera photo number counter has reset twice!!
 
-A few days back I decided to hand over my drive to my brother, since he was leaving soon, I dumped all the stuff on my two laptops, and forgot about them. Of late my wife asked me to pick up good nice pics so we can print them. That's when I realized I had a lot of duplicate photos, now the simplest idea was to find the duplicate file names and delete them, but that was not possible, since I had already reset the counter so I technically had 3 files with the same name and atleast 10,000 of them!!
+A few days back I decided to hand over my drive to my brother, since he was leaving soon, I dumped all the stuff on my two laptops, and forgot about them. Of late my wife asked me to pick up good nice pics so we can print them. That's when I realized I had a lot of duplicate photos, now the simplest idea was to find the duplicate file names and delete them, but that was not possible, since I had already reset the counter so I technically had 3 files with the same name and at least 10,000 of them!!
 
 MD5 to the rescue. Since all the photos and movies are binary files, MD5 seemed ideal to me...
 
@@ -84,7 +84,7 @@ So go ahead and run this, you can also extend it to generate a list of any kind 
 
 The output file when viewed on Open Office, Google Docs or Excel looks like this
 
-This is how the output looks like this. It shows you which file a duplicate of which other file.
+This is what the output looks like. It shows you which file is a duplicate of which other file.
 
 {% highlight bash %}
 /mnt/datastorage/Photos/2008/Photos/Halloween NYC 2007/DSC01958.JPG /mnt/datastorage/Photos/2008/Photos/SORT ME/DSC01958.JPG

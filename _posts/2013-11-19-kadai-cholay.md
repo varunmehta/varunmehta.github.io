@@ -32,9 +32,9 @@ description: Dinner ideas, Indian Food
 - 2 medium tomatoes
 
 ## Chana Masala:
-- 1 tablespoon anardana 
-- 1/2 teaspoon jeera poweder
-- 1 teaspoon dhania seeds
+- 1 tablespoon anardana
+- 1/2 teaspoon jeera powder
+- 1 teaspoon dhaniya seeds
 - 3-4 peppercorns 
 - 1/2 teaspoon kachri powder 
 - 2 dried red chillies
@@ -45,9 +45,9 @@ description: Dinner ideas, Indian Food
 - Grind all the ingredients of channa masala to a coarse paste
 - Heat 3 tablespoon oil in a kadai
 - Add jeera seeds
-- Add Onion and sauté till pink 
+- Add Onion and sauté till pink
 - Add ginger and garlic paste
-- Add powdered chana masala 
+- Add powdered chana masala
 - Add dhaniya powder
 - Add chili, turmeric powder 
 - Add half of the jeera powder

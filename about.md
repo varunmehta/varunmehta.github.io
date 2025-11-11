@@ -2,17 +2,27 @@
 title: About
 layout: page
 ---
-<!-- 
-	![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) 
--->
+
+
 
 # Hi, I'm Varun 👋
 
-I’m Varun Mehta. I am the Director of Software Engineer, currently working at Slalom, where I help clients build new products, AI-powered experiences, and execute large modernization and cloud migrations initiatives.
+I currently serve as a CoFounder of my [small startup](https://braineatingmachines.com), where I build robotics focused simulation environments for robot training. Across my career I have led engineering teams at Slalom, built niche products for Fortune 500 companies and executed large modernization and cloud migrations initiatives.
 
-I started my engineering journey [back in the 90s](https://github.com/varunmehta/1999-2003). Spent my early days designing [websites](https://github.com/varunmehta/1999-2003), and writing code in C & Pascal, eventually settling with Java for enterprise applications. Currently I dabble with Python for data pipelines, robotics, AI and machine learning.
+<div class="side-by-side">
+    <div class="toleft">
+        <p>I started my engineering journey <a href="https://varunmehta.github.io/1999-2003" target="_blank">back in the 90s</a>. Spent my early days designing <a href="https://varunmehta.github.io/restore-archive-1999-2003/">websites</a>, and writing code in C & Pascal, eventually settling with Java for enterprise applications. Currently I dabble with Python for data pipelines, robotics, AI and machine learning.</p>
 
-Constantly solving interesting problems presented by clients, challenging situations, or personal exploration in pursuit of better solutions. When I discover any, I try to [share these insights](/blog) and see them implemented by others to create real-world impact.
+		<p>
+		Constantly solving interesting problems presented by clients, challenging situations, or personal exploration in pursuit of better solutions. When I discover any, I try to <a href="/blog">share these insights</a> and see them implemented by others to create real-world impact.
+		</p>
+    </div>
+
+    <div class="toright">
+        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+    </div>
+</div>
+
 
 ## What are some interesting projects you are working on? 
 I try to keep [projects](/projects) up to date as much as possible. Some of my [3D printing models](https://www.printables.com/@emortal_2112934) are also available for free printing.

@@ -14,13 +14,13 @@ author: varunmehta
 description: Dinner ideas, Indian food
 ---
 
-Over the past decade of cooking, I've collected a few recipies. I'm going to start documenting them here! 
+Over the past decade of cooking, I've collected a few recipes. I'm going to start documenting them here!
 
-Saag is a mixture of two basic green leaves, Spinach & Brocolli Rabe. Brocolli Rabe can get bitter to eat. Modifying ratios of Spinach to Brocolli Rabe can help ease the bitterness. The ideal ratio is 2:1 (2 bunches of Spinach and 1 of Brocolli Rabe)
+Saag is a mixture of two basic green leaves, Spinach & Broccoli Rabe. Broccoli Rabe can get bitter to eat. Modifying ratios of Spinach to Broccoli Rabe can help ease the bitterness. The ideal ratio is 2:1 (2 bunches of Spinach and 1 of Broccoli Rabe)
 
-## Ingredients 
+## Ingredients
 - 2 bunches of spinach
-- 2 bunch of brocolli rabe
+- 2 bunches of broccoli rabe
 - 1/2 cup chana daal
 - 2-3 green chilies 
 - 4-5 turnip 
@@ -34,9 +34,9 @@ Saag is a mixture of two basic green leaves, Spinach & Brocolli Rabe. Brocolli R
 - Cottage cheese (big curd) full fat
 - Salt to taste
 
-## Directions 
+## Directions
 - Clean fresh green leaves nicely double strain. (Avoid using baby spinach)
-- Put the green chilies, turnips, brocolli rabe and spinach into an instant pot (no need to add water). 
+- Put the green chilies, turnips, broccoli rabe and spinach into an instant pot (no need to add water). 
 - Cook for 10 minutes. Natural Release 
 - Remove the mixture and blend it 5-7 seconds. 
   - You are not trying to make a smoothie, just break up the big pieces.
@@ -50,4 +50,4 @@ Saag is a mixture of two basic green leaves, Spinach & Brocolli Rabe. Brocolli R
 - Add the blended saag, and salt to taste
 - Stir on slow flame for 8-10 minutes.
 - Add kasuri methi and stir nicely.
-- Add cottage cheese and mix (this should reduces the bitterness)
+- Add cottage cheese and mix (this should reduce the bitterness)
