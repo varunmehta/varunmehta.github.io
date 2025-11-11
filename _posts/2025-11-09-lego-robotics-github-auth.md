@@ -26,7 +26,7 @@ After spending more than 2 weeks with kids coaching them on how different sensor
 
 One common theme I see being posted regularly on the facebook group was frustration due to loss of code, due to accidentally not downloading the file or not saving it when they started coding. The code was lost due to system/browser crash, and they have no way to go back to an older version. The most common recommended solution is to use Google Drive or OneDrive to store the `llsp3` file. Download the code and rename the file with the date stamp of the day.
 
-# Enter [SpikePrimeGit]((https://varunmehta.github.io/spike-prime-git/))
+# Enter SpikePrimeGit
 
 [SpikePrimeGit](https://varunmehta.github.io/spike-prime-git/) is a Chrome extension that helps students and coaches automatically save LEGO SPIKE Prime projects to GitHub. This makes it easy to:
 
