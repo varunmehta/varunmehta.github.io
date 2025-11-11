@@ -28,9 +28,9 @@ One common theme I see being posted regularly on the facebook group was frustrat
 
 # Enter SpikePrimeGit
 
-**UPDATE**: The Chrome plugin is now available on the web store! 
+> **UPDATE**: *The Chrome plugin is now available on the web store!*
 
-[![Available in the Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/spikeprimegit/ldiklhfinipoikhmfbnamjklkigcppoe)
+[![Available in the Chrome Web Store](https://developer.chrome.com/static/docs/webstore/branding/image/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/spikeprimegit/ldiklhfinipoikhmfbnamjklkigcppoe)
 
 [SpikePrimeGit](https://varunmehta.github.io/spike-prime-git/) is a Chrome extension that helps students and coaches automatically save LEGO SPIKE Prime projects to GitHub. This makes it easy to:
 
