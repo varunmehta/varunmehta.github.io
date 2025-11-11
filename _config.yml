@@ -1,6 +1,6 @@
 # main text of home
 title: Varun Mehta
-bio: coder | engineer | tinkerer | photographer | cook | tryathlete
+bio: engineer | coder | tinkerer | cook | photographer | tryathlete
 
 # twitter summary info
 description: >-
@@ -52,7 +52,7 @@ email: varun.mehta.r@gmail.com
 authors:
   varunmehta:
     name: VARUN MEHTA
-    bio: coder | engineer | tinkerer | photographer | cook | tryathlete
+    bio: engineer | coder | tinkerer | cook | photographer | tryathlete
     external-image: false
     picture: assets/images/profile.jpg
     bluesky: varunmehta.bsky.social

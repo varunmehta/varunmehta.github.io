@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - technical
 - migration
-star: true
+star: false
 hidden: false
 category: blog
 author: varunmehta
