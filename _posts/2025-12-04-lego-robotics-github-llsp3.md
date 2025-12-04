@@ -1,5 +1,5 @@
 ---
-title: "Show `llsp3` code preview in github."
+title: "Show LLSP3 code preview in GitHub"
 layout: post
 date: 2025-12-04
 image: ../assets/images/posts/lego-blockcode.png
