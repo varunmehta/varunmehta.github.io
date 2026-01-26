@@ -14,7 +14,7 @@ star: false
 hidden: false
 category: blog
 author: varunmehta
-description: Extract the SVG from llsp3, and embed in README file.
+description: Using Claude Code to build a GitHub Pages template for FTC/FRC teams.
 ---
 
 **Demo: [https://braineatingmachines.com/pitcrew/](https://braineatingmachines.com/pitcrew/)**
