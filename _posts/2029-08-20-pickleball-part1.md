@@ -84,4 +84,4 @@ train: train.txt
 After I've got the data annotated, I started to look into court mapping and hit upon Homography.
 > A homography is a geometric transformation that maps points on one flat plane to corresponding points on another flat plane while keeping straight lines straight.
 
-I have only heard about but I'm not very familiar with. The project is paused here for now, need to spend some time studying this further, before I get back to it. 
+The project is paused for now, need to spend some time finishing the court mapping, before I get back to it. The other challenge is getting the camera with Pi setup and installed at the court! 
