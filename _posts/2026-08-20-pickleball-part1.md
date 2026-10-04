@@ -12,6 +12,7 @@ tag:
 star: false
 hidden: false
 category: blog
+projects: true
 author: varunmehta
 description: Pickleball Referee
 ---
@@ -25,6 +26,12 @@ The most common problem with the game is everyone arguing over whether the ball 
 ![/assets/images/projects/pickleball/screenshot-with-players.png](/assets/images/projects/pickleball/screenshot-with-players.png)
 
 The idea is to connect 2 Raspberry Pi5 at either ends of the court, attach an AI HAT on top, with a V2 RPi camera, and see if they can act as a referee. I've started with CVAT annotations for the video, and converted a 350 frame video to an annotated dataset for YOLO. 
+
+### CVAT Annotation Samples
+
+![/assets/images/projects/pickleball/pickleball_cvat_1.png](/assets/images/projects/pickleball/pickleball_cvat_1.png)
+
+![/assets/images/projects/pickleball/pickleball_cvat_2.png](/assets/images/projects/pickleball/pickleball_cvat_2.png)
 
 ### train.txt
 ```
@@ -85,3 +92,8 @@ After I've got the data annotated, I started to look into court mapping and hit 
 > A homography is a geometric transformation that maps points on one flat plane to corresponding points on another flat plane while keeping straight lines straight.
 
 The project is paused for now, need to spend some time finishing the court mapping, before I get back to it. The other challenge is getting the camera with Pi setup and installed at the court! 
+
+### Next Steps
+
+ * Print a Mount for Pi+Camera that can see the court and record the videos
+ * Explore [Roboflow](https://roboflow.com/), and see if that can help my pipeline better.
