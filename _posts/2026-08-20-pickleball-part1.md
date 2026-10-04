@@ -88,7 +88,7 @@ train: train.txt
 10 0.551924 0.466981 0.040641 0.118500 4
 ```
 
-After I've got the data annotated, I started to look into court mapping and hit upon Homography.
+I did not have the camera fixed, and was recording the video handheld as I was trying to capture it, so the court and the base moves along with everything else in the video!  To address that issue, I started to look into court mapping and hit upon Homography.
 > A homography is a geometric transformation that maps points on one flat plane to corresponding points on another flat plane while keeping straight lines straight.
 
 The project is paused for now, need to spend some time finishing the court mapping, before I get back to it. The other challenge is getting the camera with Pi setup and installed at the court! 
@@ -96,4 +96,5 @@ The project is paused for now, need to spend some time finishing the court mappi
 ### Next Steps
 
  * Print a Mount for Pi+Camera that can see the court and record the videos
+ * Mount the camera at a fixed position.
  * Explore [Roboflow](https://roboflow.com/), and see if that can help my pipeline better.
